@@ -63,7 +63,3 @@ lib/
 ## Contributing
 
 Contributions are welcome! Please feel free to submit issues or pull requests for any improvements or features you'd like to see added to the app.
-
----
-
-Feel free to customize or expand upon this README to better fit the specifics of your project.
