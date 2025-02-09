@@ -1,68 +1,70 @@
+# 🎌 ToKu App – Learn Basic Japanese for Kids  
 
----
+ToKu is a **Flutter-based** mobile app designed to help kids learn **basic Japanese** in a fun and interactive way! 🇯🇵✨  
 
-# ToKu App
+## 📌 Features  
 
-## Overview
+✔️ **Learn Numbers** – Interactive lessons to understand Japanese numbers 🔢  
+✔️ **Family Members** – Familiarize kids with family-related vocabulary 👨‍👩‍👧‍👦  
+✔️ **Colors** – Engaging exercises to recognize and name colors 🎨  
+✔️ **Kid-Friendly UI** – Simple, colorful, and easy-to-use interface 🌟  
 
-ToKu is a Flutter mobile application designed for kids to learn basic Japanese language concepts. The app provides educational content covering numbers, family members, and colors, catering to beginner-level Japanese language learners in a fun and interactive way.
+## 🏗 Project Structure  
 
-## Project Functionality
-
-The primary function of the ToKu app is to facilitate learning for young Japanese students. It offers interactive lessons and exercises on fundamental concepts such as numbers, family members, and colors, helping children build their vocabulary and comprehension skills in Japanese.
-
-## Project Structure
-
-```
+```bash
 lib/
 ├── components/
-│   └── Bars_HomeScreen.dart
+│   └── Bars_HomeScreen.dart    # Custom UI components (e.g., navigation bars)
 ├── models/
-│   └── phraseModel.dart
+│   └── phraseModel.dart        # Data models for phrases & learning materials
 ├── screens/
-│   ├── Colors.dart
-│   ├── Family_Members.dart
-│   ├── home_page.dart
-│   └── Numbers_screen.dart
-└── main.dart
+│   ├── Colors.dart             # Screen for learning colors
+│   ├── Family_Members.dart     # Screen for family members' vocabulary
+│   ├── home_page.dart          # Main home screen
+│   └── Numbers_screen.dart     # Screen for learning numbers
+└── main.dart                   # App entry point
 ```
 
-## Directory Structure
+## 🚀 Getting Started  
 
-- **components:** Contains reusable UI components such as buttons, text fields, and custom bars.
-- **models:** Houses data models representing information used in the app for managing data flow and interactions.
-- **screens:** Holds all screens (views) that make up the app's user interface, with each screen typically represented by a separate Dart file.
+### 📌 Prerequisites  
 
-## Getting Started
+- **Flutter SDK** installed  
+- **Dart SDK** installed  
 
-1. Clone the repository:
+### 📥 Installation  
 
-   ```
-   git clone https://github.com/your-username/ToKu-App.git
-   ```
+1️⃣ Clone the repository:  
+```sh
+git clone https://github.com/your-username/ToKu-App.git
+```
+2️⃣ Navigate to the project directory:  
+```sh
+cd ToKu-App
+```
+3️⃣ Install dependencies:  
+```sh
+flutter pub get
+```
+4️⃣ Run the app:  
+```sh
+flutter run
+```
 
-2. Navigate to the project directory:
+## 📂 APK Download  
 
-   ```
-   cd ToKu-App
-   ```
+📥 **Download the ToKu App**: [Click Here](https://drive.google.com/drive/folders/1UUJsjCm0xZLBjjxwTfIZX-AYe8AvxZpI?usp=sharing)  
 
-3. Install dependencies:
+## 🤝 Contributing  
 
-   ```
-   flutter pub get
-   ```
+Contributions are welcome! If you have ideas to enhance **ToKu**, feel free to submit issues or pull requests. 🚀  
 
-4. Run the app:
+## 📧 Contact  
 
-   ```
-   flutter run
-   ```
+👨‍💻 **Your Name**  
+📧 [Email](mailto:your.email@example.com)  
+🔗 [GitHub](https://github.com/your-username)  
 
-## Contributing
+## 📝 License  
 
-Contributions are welcome! Please feel free to submit issues or pull requests for any improvements or features you'd like to see added to the app.
-
-## APK
-
-https://drive.google.com/drive/folders/1UUJsjCm0xZLBjjxwTfIZX-AYe8AvxZpI?usp=sharing
+📄 This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.  
